@@ -21,3 +21,7 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-c
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
 stress --cpu 1
+
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+stress --cpu 1
