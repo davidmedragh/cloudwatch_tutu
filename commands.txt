@@ -25,3 +25,4 @@ stress --cpu 1
 sudo amazon-linux-extras install epel -y
 sudo yum install stress -y
 stress main --cpu 1
+stress my_feature_branch --cpu 1
